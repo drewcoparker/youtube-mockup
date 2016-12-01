@@ -2,19 +2,51 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Youtube</title>
+        <title>YouTube</title>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
 
-        <div id="header-wrapper">
-            <div id="header-upper">
-                <div id="header-lower">
-                    
+        <div id="page-wrapper">
+            <!-- The header wrapper contains 3 inline blocks of content-->
+            <div id="header">
+                <!-- The logo block will set the vertical height standard -->
+                <div id="logo-block">
+                    <img src="youtube.png">
+                </div>
+                <!-- Search block contains 2 rows of content -->
+                <div id="search-block">
+                    <!-- First row is for input and search button -->
+                    <div id="search-bar">
+                        <input type="text">
+                        <button id="search-btn">Search</button>
+                    </div>
+                    <!-- Second row is content type text (videos, channels) -->
+                    <ul id="content-type">
+                        <li>Home</li>
+                        <li>|</li>
+                        <li>Videos</li>
+                        <li>|</li>
+                        <li>Channels</li>
+                    </ul>
+                </div>
+                <!-- Account block contains 2 rows of content -->
+                <div id="account-block">
+                    <!-- Sign in prompt -->
+                    <p id="account-text">
+                        <a href="#">Create Account</a> or
+                        <a href="#">Sign-in</a>
+                    </p>
+                    <!-- History, etc. -->
+                    <ul id="viewership-text">
+                        <li>Subscriptions</li>
+                        <li>History</li>
+                        <li>Upload</li>
+                    </ul>
                 </div>
             </div>
-        </div>
 
+        </div>
     </body>
 </html>
