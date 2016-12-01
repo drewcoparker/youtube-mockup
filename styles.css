@@ -10,10 +10,15 @@ body {
 
 #header {
     position: relative;
+    height: 100px;
 }
 
 #logo-block {
     display: inline-block;
+}
+
+#logo-block img {
+    
 }
 
 #search-block {
