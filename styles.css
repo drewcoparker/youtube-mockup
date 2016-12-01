@@ -15,10 +15,19 @@ body {
 
 #logo-block {
     display: inline-block;
+    position: relative;
 }
 
 #logo-block img {
 
+}
+
+span {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    font-size: 12px;
+    color: #dcdcdc;
 }
 
 #search-block {
