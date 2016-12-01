@@ -4,13 +4,22 @@ body {
 }
 
 #page-wrapper {
-    max-width: 900px;
-    margin: auto;
+
+}
+
+#header-wrapper {
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
 
 #header {
     position: relative;
     height: 100px;
+    padding-bottom: 25px;
+    /*border-bottom: solid #807F83 1px;*/
+    background-color: #fff;
+    max-width: 900px;
+    margin: auto;
 }
 
 #logo-block {
@@ -32,7 +41,7 @@ span {
 
 #search-block {
     display: inline-block;
-    padding-left: 75px;
+    padding-left: 90px;
 }
 
 #search-bar {
@@ -62,7 +71,6 @@ input {
 
 #account-block {
     display: inline-block;
-    /*float: right;*/
     position: absolute;
     bottom: 0;
     right: 0;
@@ -71,18 +79,49 @@ input {
 #account-text {
     padding-bottom: 20px;
     text-align: right;
+    font-size: 14px;
 }
 
 #account-text a {
     text-decoration: none;
+
 }
 
 #viewership-text {
     font-size: 12px;
     text-align: right;
+    padding-bottom: 25px;
 }
 
 #viewership-text li {
     display: inline;
     padding-left: 10px;
+}
+
+#body-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+/*!!!!!!!!!!!!!!!!!!!*/
+/*Featured section*/
+#featured-wrapper {
+    margin-top: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    background-color: #fff;
+    display: inline-block;
+    width: 68%;
+    height: 350px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!*/
+/*Pop-up section*/
+#pop-up-wrapper {
+    margin-top: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    background-color: #fff;
+    /*display: inline-block;*/
+    float: right;
+    width: 30%;
+    height: 350px;
 }
