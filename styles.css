@@ -65,7 +65,7 @@ input {
 
 #content-type {
     width: 100%;
-    padding-left: 20px;
+    padding-left: 60px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -74,6 +74,10 @@ input {
     display: inline;
     padding-right: 20px;
     padding-left: 10px;
+}
+
+.active {
+    color: #AEB6BF
 }
 
 #account-block {
@@ -164,12 +168,19 @@ input {
     font-weight: bold;
 }
 
-.descpription-text {
+.channel-text {
     font-size: 12px;
     padding-top: 5px;
+    color: #85929E;
 }
 
 .number-views-text {
     font-size: 11px;
     padding-top: 9px;
+    color: #85929E;
+}
+
+#divider {
+    margin: 13px 13px 13px 13px;
+    border-bottom: solid #D6DBDF 1px;
 }
