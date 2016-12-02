@@ -3,9 +3,14 @@ body {
     font-family: -apple-system, "Segoe UI", "Helvetica";
 }
 
-.content-card {
+.high-shadow-card {
     background-color: #fff;
     box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.low-shadow-card {
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0,0,0,.14), 0 1px 2px rgba(0,0,0,.28);
 }
 
 #page-wrapper {
@@ -183,4 +188,22 @@ input {
 #divider {
     margin: 13px 13px 13px 13px;
     border-bottom: solid #D6DBDF 1px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!*/
+/*Details section*/
+#details-wrapper {
+    margin-top: 10px;
+    display: inline-block;
+    width: 884px;
+    height: 150px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!*/
+/*Published section*/
+#published-wrapper {
+    margin-top: 10px;
+    display: inline-block;
+    width: 884px;
+    height: 150px;
 }
